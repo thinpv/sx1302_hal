@@ -97,7 +97,7 @@ License: Revised BSD License, see LICENSE.TXT file include in the project
 #define PKT_PULL_ACK    4
 #define PKT_TX_ACK      5
 
-#define NB_PKT_MAX      255 /* max number of packets per fetch/send cycle */
+#define NB_PKT_MAX      16 /* max number of packets per fetch/send cycle */
 
 #define MIN_LORA_PREAMB 6 /* minimum Lora preamble length for this application */
 #define STD_LORA_PREAMB 8
